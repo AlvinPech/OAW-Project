@@ -7,7 +7,7 @@ $channel_id = md5($url);
 
 $estado = "";
 
-$mysqli = new mysqli('localhost', 'root', 'root', 'rss');
+$mysqli = new mysqli('localhost', 'root', '', 'rss');
 if(!$mysqli){
     $estado = "No se pudo realizar la conexión PHP - Mysql";
 }
